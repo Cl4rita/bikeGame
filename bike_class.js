@@ -12,6 +12,25 @@ class Obj{
         des.drawImage(img,this.x,this.y,this.w,this.h)
     }
 }
+// class Bg extends Obj{
+//     mov_bg(){
+//         this.y += 5
+//         if(this.y >= 710){
+//             this.y = 0
+//         }
+//     }
+//     mov_bg2(){
+//         this.y += 5
+//         if(this.y >= 710){
+//             this.y = 0
+//         }
+//     }
+//     des_bg_img(){
+//         let img = new Image()
+//         img.src = this.a
+//         des.drawImage(img, this.x, this.y, this.w, this.h)
+//     }
+// }
 class Carro extends Obj{
     dir = 0
     pts = 0
